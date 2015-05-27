@@ -1,0 +1,366 @@
+body {
+	text-align: center;
+}
+
+.centeredBlockA p, .photos p,
+.clonesAndAwards span {
+	color: white;
+	font: 16px/20px 'pt_sans', sans-serif;
+}
+
+.clonesAndAwards  {
+    margin-bottom: 50px;   
+}
+.clonesAndAwards a {
+    padding-left: 33px;
+    line-height: 22px;   
+    height: 22px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+}
+.clonesAndAwards .aw {
+    background-image: url(../img/icons/star.png);
+}
+.clonesAndAwards .sh {
+    background-image: url(../img/icons/sheep.png);
+}
+.clonesAndAwards span {
+    text-decoration: underline;
+}
+.clonesAndAwards a:hover span{
+	color: #dc3333;
+}
+.clonesAndAwards a+a{
+    margin-left: 55px;
+}
+
+#body .centeredBlockA .horizontal li .icon.red {
+	position: relative;
+}
+
+.photos {
+	font-size: 0px;
+	display: inline-block;
+}
+
+.photos .line {
+	display: inline-block;
+}
+
+.photos div .hover {
+	padding: 22px;
+	z-index: 2;
+	positin: relative;
+	overflow: hidden;
+	background: #dc3333;
+	text-align: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+.photos div.multiLayer:hover .hover, .photos div.multiLayer:hover .avatar, .photos div.multiLayer:hover .icons, #body .icon.red:hover .hover  {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+.photos div.multiLayer .avatar, .photos div.multiLayer .hover, .photos div.multiLayer .icons, #body .icon.red .hover  {
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+
+.photos div.multiLayer .avatarContainer {
+	height: 84px;
+	position: relative;
+}
+
+
+.photos .name {
+	font: 36px/31px 'pf_din_text_comp_promedium', sans-serif;
+	text-transform: uppercase;
+}
+.photos div.multiLayer {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.photos  .photosContainer {
+	position: relative;
+	overflow: hidden;
+}
+
+.photos div.multiLayer,
+.photos  .photosContainer {
+	width: 253px;
+	height: 253px;
+	
+}
+
+.photos div.multiLayer .photosContainer img {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+/* */
+
+#body .red.icon > * {
+	background-image: url(../img/team/icons.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+#body .icon.red {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+}
+
+.photos .hover .icon {
+	height: 18px;
+	background-position-y: -75px;
+}
+
+/* */
+
+#body .icon.red.be .normal {
+	background-position: -5px -4px
+}
+
+#body .icon.red.pin .normal {
+	background-position: -43px -4px
+}
+
+#body .icon.red.ball .normal {
+	background-position: -81px -4px
+}
+
+#body .icon.red.re .normal {
+	background-position: -119px -4px
+}
+
+#body .icon.red.fcb .normal {
+	background-position: -157px -4px
+}
+
+#body .icon.red.tw .normal {
+	background-position: -195px -4px
+}
+
+#body .icon.red.gpl .normal {
+	background-position: -5px -34px
+}
+
+#body .icon.red.rss .normal {
+	background-position: -43px -34px
+}
+
+#body .icon.red.habr .normal {
+	background-position: -81px -34px
+}
+
+#body .icon.red.vk .normal {
+	background-position: -119px -34px
+}
+
+#body .icon.red.github .normal {
+	background-position: -157px -34px
+}
+/* */
+
+#body .icon.red.be .hover {
+	background-position: -5px -104px
+}
+
+#body .icon.red.pin .hover {
+	background-position: -43px -104px
+}
+
+#body .icon.red.ball .hover {
+	background-position: -81px -104px
+}
+
+#body .icon.red.re .hover {
+	background-position: -119px -104px
+}
+
+#body .icon.red.fcb .hover {
+	background-position: -157px -104px
+}
+
+#body .icon.red.tw .hover {
+	background-position: -195px -104px
+}
+
+#body .icon.red.gpl .hover {
+	background-position: -5px -134px
+}
+
+#body .icon.red.rss .hover {
+	background-position: -43px -134px
+}
+
+#body .icon.red.habr .hover {
+	background-position: -81px -134px
+}
+
+#body .icon.red.vk .hover {
+	background-position: -119px -134px
+}
+#body .icon.red.github .hover {
+	background-position: -157px -134px
+}
+
+/* */
+
+.photos .hover .icon.skype {
+	width: 16px;
+	background-position: -7px -75px;
+}
+.photos .hover .icon.vimeo {
+	width: 16px;
+	background-position: -33px -75px;
+}
+.photos .hover .icon.fcb {
+	width: 8px;
+	background-position: -61px -75px;
+}
+.photos .hover .icon.tw {
+	width: 12px;
+	background-position: -83px -75px;
+}
+
+/* */
+
+.title {
+	margin-bottom: 39px;
+}
+
+#body .centeredBlockA .horizontal li+li {
+	margin-left: 12px;
+}
+
+.photos {
+	margin-bottom: 50px;
+}
+
+.photos .icons.horizontal li {
+	margin-right: 13px;
+}
+
+.photos .icons.horizontal li.skype {
+	margin-right: 11px;
+}
+
+#body .centeredBlockA p {
+	margin-bottom: 24px;
+}
+
+.photos div.multiLayer~.multiLayer {
+	margin-left: 10px;
+}
+
+#body .centeredBlockA {
+	margin-bottom: 63px;
+}
+
+.photos .hover .avatarContainer {
+	margin-bottom: 19px;
+}
+
+.photos .hover .name {
+	margin-bottom: 5px;
+}
+
+.photos .hover .role {
+	margin-bottom: 18px;
+}
+
+/* */
+
+.centeredBlockA ul.horizontal li .hover,
+.photos .hover {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.photos .avatar, .photos .icons {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Адаптация */
+
+.photos .div2,
+.photos .div3 {
+	height: 10px;
+	display: none;	
+}
+
+/* Как получить величину:
+    Выявить ширину строчки со всеми тайлами в одной линии.
+    Округлить в большую сторону.
+*/
+@media (max-width: 1600px) { 
+
+	.photos .div3 {
+		display: block;
+	}
+	.photos div.div3+.multiLayer {
+	    margin-left: 0px;
+	}
+	.photos div.div2+.multiLayer {
+	    margin-left: 10px;
+	}
+}
+
+
+@media (max-width: 800px) { /* Строчка с тремя тайлами в линии. */
+
+	.photos .div3 {
+		display: none;	
+	}
+	.photos .div2 {
+		display: block;
+	}
+	.photos div.div3+.multiLayer {
+	    margin-left: 10px;
+	}
+	.photos div.div2+.multiLayer {
+	    margin-left: 0px;
+	}
+}
+
+@media (max-width:550px) { /* Строчка с двумя тайлами в линии. */
+
+	.photos  div.multiLayer {
+		display: block;	
+		margin-bottom: 10px;
+	}
+	
+	.photos .div2,
+	.photos .div3 {
+		display: none;	
+	}
+	
+	.photos div.multiLayer~div.multiLayer {
+	    margin-left: 0px;
+	}
+	
+	.photos div.div3+.multiLayer {
+	    margin-left: 0px;
+	}
+	.photos div.div2+.multiLayer {
+	    margin-left: 0px;
+	}
+
+}
+

@@ -1,0 +1,54 @@
+/*
+ Адаптация
+ * */
+
+@media (max-width: 1100px) {
+
+	/*#footer > ul > .mid {
+		width: 357px;
+	}
+
+	 #footer .mid .strt {
+	 width: 115px;
+	 }
+
+	 #footer .mid .end {
+	 width: 142px;
+	 }*/
+
+	
+	#footer .root > .teamAndWorks,
+	#footer .root > .mailAndRequest,
+	#footer .root > .phoneAndLocation {
+		display: inline-block;
+	}
+	
+	#footer .teamAndWorks .team,
+	#footer .mailAndRequest .request,
+	#footer .root > .phoneAndLocation .location {
+		display: block;
+	}
+	
+	#footer ul.root > .flat {
+		display: none;
+	} 
+
+}
+
+@media (max-width: 825.5px) {
+
+	#footer .share {
+		display: none;
+	}
+	
+	#footer > ul > .phoneAndLocation {
+		margin-right: 4.5%;
+	}
+}
+
+@media (max-width: 968.5px) {
+
+	#footer .languageSwitch {
+		display: none;
+	}
+}

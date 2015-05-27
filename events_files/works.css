@@ -1,0 +1,56 @@
+#box-list {
+	margin: 0px 10px;
+	margin-bottom: 94px;
+}
+
+#box-list h1 {
+	font-size: 330%;
+}
+
+#box-list .desc {
+	font: 15px pt_sansregular,sans-serif;
+	color: white;
+	text-align:left;
+}
+
+h1 {
+	font-family: pf_din_text_comp_proregular,sans-serif;
+}
+
+#box-list li > a {
+	text-decoration: none;
+}
+
+#box-list .lophoto h1 span {
+	color:#59446b;
+}
+
+#box-list .alibaba h1 span {
+	color:#edd7a6;
+}
+
+#box-list .hydro h1 span {
+	color:#c4d6e2;
+}
+
+#box-list .sport2u h1 span {
+	color:#34252a;
+}
+
+#box-list .football h1 span {
+	color:#dcf170;
+}
+
+#box-list .kynsi h1 span {
+	color:#7bc7e1;
+}
+
+#box-list .curt h1 span {
+	color:#652422;
+}
+
+#box-list li:hover h1 span {
+	color:white;
+}
+
+

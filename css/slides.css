@@ -1,0 +1,1022 @@
+.disable-hover {
+	pointer-events: none;
+}
+
+#intro h1, #bilet2u h1 {
+	max-width: 80%;
+}
+
+.bottomMiddleCaption {
+	text-align: center;
+	height: 50%;
+	width: 100%;
+}
+
+.bottomMiddleCaption > h1 {
+	width: 80%;
+}
+
+
+#kynsi h1 a,
+#lophoto h1 a {
+	color: white;
+	text-decoration: none;
+	border: none;
+	font-family: 'Quando', serif;
+	font-size:36px;
+}
+
+
+#intro video[alt] {
+	background: url(../img/welder.jpg) 50% 50% no-repeat #121213;
+	bottom: auto;
+}
+
+#intro > .simpleLayer,
+#intro > .overflowLayer {
+	position: absolute;
+	display:inline-block;
+	height: 100%;
+	top: 0px;
+	text-align: center;
+}
+
+#intro > .simpleLayer > img,
+#intro > .overflowLayer > div  {
+	height: 100%;
+	max-height: 993px;
+}
+
+#intro > .overflowLayer > div {
+	display: inline-block;
+}
+
+#intro > .overflowLayer > div > img {
+	height: 106%;
+	
+	position:relative;
+	bottom: 6%;
+}
+
+#intro img[src$='intro/1.png'],
+#intro img[src$='intro/2.png'],
+#intro img[src$='intro/3.png'] {
+	height: 100%;
+	top: auto;
+	max-height: 993px;
+}
+
+#intro img[src$='intro/4.png'] {
+	height: 106%;
+	max-height: 1053px;
+	bottom: -6%;
+	top: auto;
+}
+
+/*#intro img[src$='intro/1.png'],
+#intro img[src$='intro/2.png'],
+#intro img[src$='intro/3.png']{
+	height: 100%;
+	max-height: 993px;
+	bottom: 0px;
+}
+
+#intro img[src$='intro/4.png']{
+	height: 106%;
+	max-height: 1053px;
+	bottom: 0px;
+}*/
+
+#intro .captionContainer > div {
+	height: 50%;
+}
+
+#intro h1  {
+	display: inline-block;
+	width: 80%;
+}
+
+#intro > h1 {
+	text-transform: none;
+	margin: 7%;
+	color: gray;
+	font-size: 500%; 
+} 
+#intro > h1 a {
+	color: white;
+} 
+
+#intro .mwHint {
+	height: 50%;
+	width: 100%;
+}
+
+#intro .mwHint {
+	height: 50%;
+	width: 100%;
+}
+
+#intro .mwHint .centered {
+	width: 250px; 
+}
+
+#intro .mwHint .centered p  {
+	font-family: 'pt_sans';
+	font-size: 180%;
+	line-height: 100%; 
+	margin-top: 8%;
+	text-shadow: 0px 0px 1px #000;
+}
+
+/**/
+	
+#range > div {
+	
+	position: relative;
+}
+
+#range  > .portrait {
+	
+	width: 896px;
+	height: 866px;
+	font-size: 17px;
+}
+
+#range > .landscape {
+	width: 1095px;
+	height: 237px;
+	font-size: 10px;
+}
+
+#range > .landscape > div {
+	display: inline-block;
+}
+
+#range h1 {
+	font-size: 740%;
+}
+
+#range .capt > h1 {
+	margin-bottom: 5%;
+}
+
+#range > .landscape .capt > h1 {
+	padding-top: 15px;
+}
+
+#range .portrait .capt {
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+#range .capt {
+	margin-bottom: 14%;
+}
+	
+#range ul {
+	font-size: 240%;
+}
+
+
+
+#range .redBoxes {
+	width: 100%;
+	height: 55%;
+	overflow: hidden;
+
+	text-align: left;
+}
+
+#range .portrait .redBoxes {
+	margin-top: 52%;
+} 
+
+#range > .landscape .redBoxes{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+} 
+
+#range > .landscape .capt {
+	width: 46%;
+	position: relative;
+}
+
+#range > .landscape .ulCont {
+	width: 20%;
+	padding-left: 2%;
+}
+
+#range .ulCont {
+	
+	background-color: #dc3333;
+	width: 42%;
+	height: 100%;
+	padding-left: 5%;
+}
+
+#range .right {
+	float: right;
+}
+
+#range .left{
+	float: left;
+}
+
+#range .ulCont h2{
+	padding-top: 11%;
+	font-size: 350%;
+	margin-bottom: 7%;
+	font-family: 'Exo 2', sans-serif;
+	font-size:30px;
+}
+
+
+#range > .landscape .ulCont h2 {
+	padding-top: 10%;
+	margin-bottom: 5%;
+	
+}
+
+#range .ulCont ul {
+	font-size: 150%;
+	
+	width: auto;
+	margin-left: 0px;
+	
+}
+
+#range .ulCont li {
+	margin: 2% 0;
+	line-height: 100%;
+	width: 90%;
+	display: inline-block;
+}
+
+#range li a {
+	text-decoration: none;
+	border: none;
+	color: white;
+}
+#range .redBoxes a{
+	text-decoration: underline;
+	color: #FF8E8E;
+}
+#range .redBoxes a span {
+	color: #fff;
+}
+#range .redBoxes a:hover, #range .redBoxes a:active{
+	text-decoration: none;
+	background-color: #000;
+	padding:2px;
+	margin:-2px;
+}
+#range .capt a span{
+	background: url(../img/2px_spec_border.gif) bottom repeat-x;
+}
+#range .capt a:hover span, #range .capt a:active span{
+	background: #dc3333;
+	padding:0px 5px;
+}
+/**/
+	
+#kynsi > * {
+	height: 100%;
+}
+	
+#kynsi > div {
+	width: 100%;
+	position: absolute;
+	top:0px
+}
+
+#kynsi > div > div {
+	height: 59%;
+	width: 75%;
+	position: relative
+}
+
+
+#kynsi > div h1{
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+#kynsi > div img{
+	left: 0px;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+
+/**/
+
+#lophoto{
+	height: 100%;
+}
+	
+#lophoto > div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0px
+}
+
+#lophoto > div > div {
+	height: 70%;
+	width: 60%;
+	position: relative;
+}
+
+
+#lophoto > div h1{
+	left: 0px;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+#lophoto > div img{
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid transparent; /*safari svg hiding fix*/
+}
+#lophoto_ipad{
+	top:25%;
+	height: 40%;
+	max-width: 481px;
+	max-height: 420px;
+}
+/*#lophoto {
+	text-align: center;
+}
+
+#lophoto > img {
+	height: 100%;
+}
+
+#lophoto > div.logo {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#lophoto img[src$='logo.png']{
+	width: 47%;
+}
+*/
+
+
+
+	
+	
+
+.bilet2u  img[src$='man.png']{
+	height: 100%;
+}
+
+.bilet2u img[src$='l1.png'] {
+	min-width: 90%;
+	min-height: 100%;
+}
+
+.bilet2u img[src$='l-1.png'] {
+	min-width: 52%;
+	min-height: 60%;
+}
+
+.bilet2u img[src$='l0.png'] {
+	min-width: 90%;
+	min-height: 100%;
+}
+
+.bilet2u img[src$='big_r_speckle.png']{
+	min-width: 22%;
+	min-height: 33%;
+}
+
+.bilet2u img[src$='big_y_speckle.png']{
+	min-width: 46%;
+	min-height:45%;
+	position: absolute;
+	bottom:0px;
+	right:0px
+}
+
+
+.bilet2u .confetti {
+	width:100%;
+	overflow:hidden;
+	height:100%;
+}
+
+.bilet2u .bilet2uLogo img[src$='/logo.png'] {
+	top:43.5%;
+	height: 13%;
+	position: relative;
+}
+.bilet2u > img[src$='/logo.png'] {
+	top:43.5%;
+	height: 13%;
+}
+
+.bilet2u .capt {
+	height: 50%;
+	width: 100%;
+}
+
+.bilet2u h1 {
+	width: 80%;
+}
+
+
+.bilet2u a.shadow {
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+/**/
+	
+#price > div {
+	width: 1088px;
+	height: 673px;
+	position: relative;
+}
+
+#price div.alignCenter {
+	position: absolute;
+	top:-1%;
+	width:100%;
+	
+}
+
+#price img[src$="characters.png"]{
+	width:100%;
+}
+
+#price img[src$="/s-man.png"]{
+	top: 0px;
+	left: 33.1%;
+	width: 29.6%;
+	position: absolute;
+}
+
+#price .absBottom {
+	font-size: 140%;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+	color:#c0c0c1;	
+}
+
+#price .absBottom > p {
+	display: inline-block;
+	text-align: left;
+	width: 81.3%;
+	line-height: 144%;
+}
+
+#price .capt {
+	font-size: 160%;
+	line-height: 100%;
+	height: 16.6%;
+	position: relative;
+}
+
+#price .capt p, #price .capt img {
+	display:inline-block;
+	max-width: 95%;
+	vertical-align: middle;
+}
+
+
+#price .capt > div {
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	
+} 
+
+#price .capt > div::before {
+	content: '';
+	display: inline-block;
+	width: 0px;
+	background: yellow;
+	height: 61.8%;
+	vertical-align: middle;
+}
+
+#price  .capt > div > div {
+	position: absolute;
+	bottom:0px;
+	width: 100%;
+	line-height: 125%;
+}
+
+#price  .capt > div > div:first-line {
+	font-size: 144%;
+	font-weight:bold;
+}
+
+#price .capt > .em {
+	left: 32.3%;
+	width: 26.6%;
+	height: 106%;
+}
+#price img[src$='classic.png']{
+	margin-left: 4%;
+	width:34.1%;
+}
+#price  .capt > .em > div{
+	color: #dc3333;
+	font-style: normal;
+	line-height: 150%;
+	padding-right: 6.8%;
+}
+#price .capt > .em > div:first-line {
+	font-size: 250%;
+}
+
+#price .a {
+	left: 2.7%;
+	width: 15.3%;
+}
+
+#price .b {
+	left: 18.9%;
+	width: 11.8%;
+}
+
+#price .c {
+	width: 14.6%;
+	left: 60.3%;
+}
+
+#price .d {
+	left: 78%;
+	width: 15.4%;
+}
+
+/**/
+
+#priceB .resizeable {
+	width: 1530px;
+	height: 1000px;
+	text-align: center;
+	position: relative;
+	font-size: 10px;
+}
+
+#priceB .resizeable.portrait {
+	width: 660px;
+}
+
+
+#priceB .padder {
+	width: 86.6%; 
+	height: 71.9%; 
+	position: relative;
+}
+
+#priceB .portrait .padder { 
+	width: 64.8%;  /* 428 */
+    
+}
+
+#priceB .portrait .peripheral *,
+#priceB .portrait .central   { 
+    display: none;
+}
+
+#priceB h1 {
+	font-size: 740%;
+}
+
+#priceB .padder > *,
+#priceB .cost, 
+#priceB  .callUs,
+#priceB .central > *[alt]
+{
+	position: absolute;
+	display: inline-block;
+}
+
+
+#priceB .cost, 
+#priceB  .callUs,
+#priceB .central > *[alt],
+#priceB .central > *[alt] > img,
+#priceB .circleContainer
+{
+	width: 100%;
+	left: 0px;
+}
+
+#priceB .peripheral p,
+#priceB .padder > .centerColumn p,
+#priceB .conclusion p,
+#priceB .lowerBound p {
+	font-size: 150%; 
+	line-height: 133%;  
+}
+
+
+#priceB .importantValue .number,
+#priceB .central p {
+	color: #dc3333; 
+}
+
+#priceB .importantValue,
+#priceB .peripheral .topMost {
+	display: inline-block;
+}
+
+#priceB p, 
+#priceB .importantValue .caption{
+	position: relative;
+}
+
+
+#priceB .importantValue {
+	font-family: pf_din_text_comp_proregular;
+}
+
+#priceB .importantValue > * {
+	display: block;
+}
+
+#priceB .importantValue .number {
+	font-size: 740%;
+	line-height: 77%;
+}
+
+#priceB .importantValue .caption {
+	font-size: 400%;
+	line-height: 114%;
+	margin-top: -7%;
+}
+
+#priceB  .circleHost {
+    position: relative;
+    display: block;
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+}
+
+#priceB p {
+font-size: 150%;
+line-height: 133%;
+
+}
+
+#priceB .padder > .alignCenter img,
+#priceB .lowerBound img,
+#priceB .conclusion img,
+#priceB .circleContainer img {
+	opacity: .20;
+	filter: alpha(opacity = 20);
+}
+
+
+
+#priceB .padder > .centerColumn {
+	position: relative;
+	height: 100%;
+	width: 24%;
+}
+
+#priceB .productionAbout {
+	
+	text-align: center;
+	
+	top: 15.7%;
+	left: 0px;
+	
+	width: 36.1%;
+	height: 58.7%;
+	
+}
+
+#priceB .central p {
+	font-size: 200%;
+	line-height: 100%;
+	
+	width: 59.7%;
+}
+	
+	
+#priceB .central > *[alt] {
+
+	top: 0px;
+	height: 100%;
+}
+
+#priceB .central > *[alt] > img {
+	position: absolute;
+	top:0px;
+	
+	opacity: .21;
+	filter: alpha(opacity = 21);
+}
+
+
+#priceB .peripheral img {
+	height: 100%;
+	opacity: .1;
+	filter: alpha(opacity = 10);
+}
+
+#priceB .peripheral .topMost {
+	
+	position: relative;
+	width: 51.1%;
+	height: 40.9%;
+	
+}
+
+#priceB .circleContainer {
+	position: absolute;
+	height: 100%;
+	text-align: center;
+	top: 0px;
+}
+
+#priceB .costB .a{ 
+ margin-bottom: 11%;
+}
+
+#priceB .circleContainer > img {
+	height: 100%;
+}
+
+#priceB .bVAligner {
+	width: 100%;
+	height: 100%;
+}
+
+#priceB .peripheral p {
+	width: 100%;
+}
+
+#priceB .peripheral .bottom {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 41.7%;
+	width: 100%;
+}
+
+#priceB .peripheral .bottom > * {
+	height: 100%;
+	width: 38.9%;
+}
+
+#priceB .peripheral .bottom .l {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#priceB .peripheral .bottom .r{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#priceB .peripheral .bottom > .r .vAligner{
+	width: 120%;
+	right: 10%;
+	position: relative;
+	display: inline-block;
+	height: 100%;
+}
+
+#priceB .lowerBound {
+	position: absolute;
+	left: 75.6%;
+	width: 17.4%;
+	top: 19.9%;
+	height: 30%;
+}
+
+#priceB .cost {
+	height: 32.3%;
+	top:22.4%;
+}
+
+#priceB .cost .circleContainer img {
+	height: 73.2%;
+	margin-top: 6.4%;
+}
+
+#priceB .cost p.a {
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+#priceB .cost .importantValue {
+	margin-bottom: 3%;
+}
+
+#priceB .cost .importantValue .number {
+	position: relative;
+	left: -4%;
+}
+
+#priceB .callUs {
+	height: 23.1%;
+	bottom:0%;
+}
+
+#priceB .callUs .fixCont {
+	width: 100%;
+	
+}
+
+#priceB .callUs .fixCont img {
+	height: 100%;
+	
+}
+
+
+#priceB .lowerBound .circleContainer  img{
+	margin-top: 25.7%;
+	height: 74.8%;
+}
+
+#priceB .lowerBound p {
+	margin-top: 8%;
+	margin-bottom: 6%;
+}
+
+#priceB .conclusion {
+	width: 18.2%;
+	height: 31.5%;
+	left: 75.2%;
+	top: 45.8%;
+}
+
+#priceB .conclusion .importantValue .number {
+	font-size: 666%;
+}
+
+#priceB .conclusion .importantValue .caption {
+	margin-top: -2%;
+}
+
+#priceB .conclusion p {
+	margin-top: 6.2%;
+	margin-bottom: 8%;
+}
+
+
+#priceB .central,
+#priceB .padder > .peripheral  {
+	height: 44%;
+	width: 24.2%;
+	left: 6%;
+	top: 28.5%;
+	margin-top: 0%;
+}
+
+#priceB .peripheral .t, 
+#priceB .peripheral .l,
+#priceB .peripheral .r {
+	position: absolute;
+	width: 56%;
+	height: 55%;
+	
+}
+
+#priceB .peripheral .t {
+	left: 22%;
+	top: -30%;
+	
+}
+
+#priceB .peripheral .l {
+	left: -24%;
+	top: 49%;
+}
+
+#priceB .peripheral .r {
+	left: 68%;
+	top: 49%;
+}
+
+#priceB .peripheral .t .vAligner,
+#priceB .peripheral .r .vAligner {
+	height: 100%;
+	display: inline-block;
+}
+
+#priceB .peripheral .t .vAligner {
+	width: 130%;
+	margin-left: -15%;
+	
+}
+
+#priceB .peripheral .r .vAligner {
+	width: 124%;
+	margin-left: -12%;
+}
+
+#priceB .priceCircles {
+    position: absolute;
+    left: 60%;
+    width: 32.1%; /*425*/
+    height: 24.1%; /*177*/
+    top: 27%;    
+}
+
+#priceB .portrait .priceCircles,
+#priceB  .portrait .centerColumn  {
+    width: 100%; /*425*/
+    left: 0%;
+}
+
+#priceB .priceCircles .costB {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    padding-top: 2%;
+    width: 41%;
+}
+
+#priceB .priceCircles .lowerBoundB {
+    position: absolute;
+    left: 59%;
+    top: 0px;
+    height: 100%;
+    padding-top: 2%;
+    width: 42%;
+}
+
+
+
+#priceB .priceCircles .lowerBoundB p{
+     position: relative;
+     bottom: 11%;   
+} 
+ 
+
+#priceB .priceCircles .lowerBoundB .importantValue .caption {
+    position: relative;
+    margin-top: -13%;
+}
+
+#priceB .priceCircles .conclusionB{
+    position: relative;
+    margin-top: 22%;
+    height: 127%;
+    padding-top: 7%;
+}
+
+#priceB .priceCircles .conclusionB p{
+    margin-bottom: 3%;
+}
+
+#priceB .priceCircles .conclusionB .caption{
+    margin-top: -5%;
+}
+
+
+
+#intro video {
+	width: 640px;
+	height: 360px;
+}
+
+
+#priceB .portrait .bitcoin{
+	display:none;
+}
+
+#priceB .bitcoin{
+    text-decoration: none;
+	border: none;
+	
+    top: 84%;
+	
+    right: 8%;
+	
+    width: 13%;
+	
+}
+#priceB .bitcoin>img{
+	width: 100%;	
+}

@@ -1,0 +1,78 @@
+@media (max-width: 700px) {
+	
+	 #footer {
+		max-width: 700px;
+		min-width: 0px;
+		left: 10%;
+		bottom: 43px;
+		width: 155px;
+	}
+	
+	
+	 #footer {
+		
+		height: 183px;
+	}
+	
+	#footerPadding {
+		height: 246px;
+	}
+	
+	body.txt #footerPadding {
+		background: #151515;
+	}
+
+	 #footer li {
+		text-align: left;
+		min-width:156px;
+	}
+
+	 #footer > ul > .strt {
+		padding-left: 0%;
+		margin-left: 5px;
+		margin-bottom:10px;
+		height: auto;
+	}
+	
+	 #footer > ul > .mid {
+		width: 100%;
+	}
+	
+	 #footer .mailAndRequest .request   {
+		display:none;
+	}
+	
+	 #footer #popupMap {
+	 	display: none;
+		width:0px;
+		overflow:hidden;
+	}
+	
+	 
+	 /* Освобождаем  элемент от роли вертикального выравнивателя*/
+	
+	 #footer .teamAndWorks {
+		height: auto;
+	}
+	 #footer .teamAndWorks:after {
+		display: none;
+	}
+	
+/* Слайды в параллаксе */
+	 
+	 #intro .captionContainer:after {
+		content: none;
+			
+	}
+	 #intro .captionContainer h1 {
+	 	position: absolute;
+	 	/* #footer.height + #footer.bottom + 16 
+	 	 * Можно улучшить */
+		bottom: 242px;
+		left: 10%;
+	}
+	
+	#intro .mwHint * {
+		display: none;
+	}
+}

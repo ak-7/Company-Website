@@ -1,0 +1,41 @@
+
+html {
+	overflow: hidden;
+}
+
+
+.unloaded  {
+	overflow: hidden;
+
+}
+
+.loadBackground,
+.preloaderCont {
+	height : 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	left: 0px;
+	top: 0px;
+}
+.loadBackground{
+	
+	background-color: black;
+	display: block;
+}
+
+.preloaderCont {
+
+	background: rgba(0,0,0,.3);
+	
+}
+
+.preloaderCont .ending,
+.preloaderCont .starting {
+	width: 0px;
+}
+
+.preloaderCont img {
+	width: 200px;
+	height: 51px;
+}

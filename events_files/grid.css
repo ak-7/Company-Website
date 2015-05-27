@@ -1,0 +1,154 @@
+#box-list li > div, #box-list li > a, #box-list h1, #box-list span, #box-list .desc {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#box-list * {
+	padding: 0;
+	margin: 0;
+}
+#box-list {
+	list-style: none;
+	position: relative;
+}
+#box-list li {
+	min-height: 10px;
+}
+#box-list li > div, #box-list li > a {
+	overflow: hidden;
+	background: transparent;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 16px solid transparent;
+}
+#box-list li:hover > div, #box-list li:hover > a {
+	background: #DC3333;
+}
+#box-list h1 {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 23px;
+	color: #fff;
+	position: absolute;
+}
+#box-list span {
+	position: relative;
+	display: inline-block;
+	line-height: 32px;
+}
+#box-list .lt h1 {
+	top: 0;
+	left: 0;
+}
+#box-list .rt h1 {
+	top: 0;
+	left: 100%;
+}
+#box-list .rt span {
+	position: relative;
+	left: -100%;
+}
+#box-list li:hover a h1 span {
+	color: white;
+	left: 0;
+	top: 0;
+	margin-top: 0;
+}
+#box-list .rb h1 {
+	text-align: right;
+	top: 100%;
+	left: 100%;
+}
+#box-list .rb span {
+	left: -100%;
+}
+#box-list .lb h1 {
+	left: 0;
+	top: 100%;
+}
+
+#box-list .lb h1, #box-list .lt h1 {
+	text-align: left;
+}
+
+#box-list .rb h1, #box-list .rt h1 {
+	text-align: right;
+}
+#box-list li:hover h1 {
+	text-align: left;
+	left: 0;
+	top: 0;
+	margin-top: 0;
+}
+#box-list .lb span, #box-list .rb span {
+	margin-top: -100%;
+}
+#box-list .rb h1, #box-list .lb h1 {
+	/* ~= line-height*/
+	margin-top: -36px; 
+}
+
+#box-list .desc {
+	position: relative;
+}
+
+#box-list li:hover .desc, #box-list .desc {
+	left: 0px;
+	top: 50px;
+	margin-top: 0px;
+}
+
+#box-list .lt .desc {
+	left: 110%;
+}
+#box-list .rt .desc {
+	margin-top: 100%;
+}
+#box-list .lb .desc {
+	margin-top: -110%;
+}
+#box-list .rb .desc {
+	left: -110%;
+}
+
+/* Ниже -- дополнение функциональности  :td
+
+ * Класс .abs позволяет задавать абсолютный сдвиг для h1.
+ * В случае его применения направление появления .desc
+ * можно задать вспомогательным классом-буквой
+ * (по умолчанию -- справа).
+ * */
+
+#box-list li:hover .abs .desc {
+	/* Копия исходного правила с усиленным селектором */
+	left: 0px;
+	top: 50px;
+	margin-top: 0px;
+}
+
+#box-list .abs h1 span {
+	text-align: left;
+}
+
+#box-list .abs .desc {
+	left: 110%;
+}
+#box-list .abs .desc.t, #box-list .abs .desc.b {
+	left: 0%;
+}
+#box-list .abs .desc.l {
+	left: -110%;
+}
+
+#box-list .abs .desc.t {
+	margin-top: 100%;
+}
+#box-list .abs .desc.b {
+	margin-top: -110%;
+}
+
