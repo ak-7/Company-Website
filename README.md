@@ -1,5 +1,5 @@
 # Company Website 
-A website for a construction company by the name of Hercules Construction Co. This website has various sections:
+A website for a health company by the name of Hercules Medical Co. This website has various sections:
 The Home Page
 Board of Directors
 Services Offered
